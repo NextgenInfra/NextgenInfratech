@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="public/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <!--=== Title & Favicon ===-->
+    <title>
+      Nextgen Infratech Solutions - The Complete IT Partner You Can Trust
+    </title>
+    <link rel="icon" type="image/png" href="public/images/Tab Logo_NXG.png" />
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <!-- header -->
+    <header id="header" class="transparent">
+      <div class="container">
+        <div class="navbar">
+          <div id="logo">
+            <a href="index.html">
+              <img
+                alt=""
+                class="logo"
+                src="./public/images/NGI_Headerlogo_4 .png.webp"
+                height="70px"
+                width="150px"
+              />
+            </a>
+          </div>
+          <ul class="mainmenu">
+            <li>
+              <a href="index.html">Home<span></span></a>
+            </li>
+            <li>
+              <a href="#find-your-space">Find your space<span></span></a>
+            </li>
+            <li>
+              <a href="#why-choose-us">Why choose us<span></span></a>
+            </li>
+            <li>
+              <a href="#process">Process<span></span></a>
+            </li>
+            <li>
+              <a href="#testimonials">Testimonials<span></span></a>
+            </li>
+            <li>
+              <a href="#faq">FAQs<span></span></a>
+            </li>
+            <li>
+              <a href="#contact">Contact<span></span></a>
+            </li>
+          </ul>
+
+          <div class="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" id="menuCheckbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul id="menu">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li>
+                  <a href="#find-your-space" onclick="toggleMenu()"
+                    >Find Your Space</a
+                  >
+                </li>
+                <li>
+                  <a href="#why-choose-us" onclick="toggleMenu()"
+                    >Why Choose Us</a
+                  >
+                </li>
+                <li><a href="#process" onclick="toggleMenu()">Process</a></li>
+                <li>
+                  <a href="#testimonials" onclick="toggleMenu()"
+                    >Testimonials</a
+                  >
+                </li>
+                <li><a href="#faq" onclick="toggleMenu()">FAQ's</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+
+    <!-- hero section -->
+    <section id="home" class="landing">
+      <div class="sec-body">
+        <div class="sec-heading">
+          <h2 data-aos="fade-right" data-aos-delay="100">We are Cospace</h2>
+          <h1 data-aos="fade-left" data-aos-delay="200">
+            Upgrade your <span class="id-color">Workspace</span> Today.
+          </h1>
+          <p data-aos="fade-right" data-aos-delay="300">
+            We provide the best workspace for your company. Over 150 locations
+            around the world. Find your best place to work in CoSpace.
+          </p>
+
+          <a
+            href="https://wa.me/"
+            target="_blank"
+            class="sec-btn button-ripple"
+          >
+            <span class="pulse-button">
+              <i class="fa fa-whatsapp" style="font-size: 20px"></i>Whatsapp
+              us</span
+            >
+          </a>
+
+          <div
+            class="row hero-cnt"
+            data-aos="fade-left"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-delay="400"
+          >
+            <div class="wow fadeInRight mb30 animated" data-wow-delay="1.1s">
+              <div class="de_count text-left">
+                <h3 class="row_h3"><span>150</span>+</h3>
+                <h5 class="color-id">Rooms Available</h5>
+              </div>
+            </div>
+
+            <div class="wow fadeInRight mb30 animated" data-wow-delay="1.4s">
+              <div class="de_count text-left">
+                <h3 class="row_h3"><span>48</span>k</h3>
+                <h5 class="color-id">Happy Customers</h5>
+              </div>
+            </div>
+
+            <div class="wow fadeInRight mb30 animated" data-wow-delay="1.7s">
+              <div class="">
+                <h3 class="row_h3"><span>15</span></h3>
+                <h5 class="color-id">Year Experiences</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form">
+          <form
+            id="quick_form"
+            class="form-border"
+            action="send-mail.php"
+            method="POST"
+            data-bgcolor="#ffffff"
+            style="background-color: rgb(255, 255, 255)"
+          >
+            <div class="form-div">
+              <div class="form-top">
+                <h3>Let's Get In Touch</h3>
+                <select
+                  class="form-control"
+                  name="select_plan"
+                  id="select_plan"
+                >
+                  <option value="">Pick an option</option>
+                  <option value="opt-1">Private Office</option>
+                  <option value="opt-2">Coworking Space</option>
+                  <option value="opt-3">Virtual Office</option>
+                  <option value="opt-4">Meeting Room</option>
+                </select>
+              </div>
+
+              <div class="form-inputs">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    name="work_email"
+                    id="work_email"
+                    class="form-control"
+                    placeholder="Work Email"
+                  />
+                  <input
+                    type="tel"
+                    name="mobile_phone"
+                    id="mobile_phone"
+                    class="form-control"
+                    placeholder="Mobile Phone"
+                  />
+                </div>
+                <input
+                  type="text"
+                  name="full_name"
+                  id="full_name"
+                  class="form-control"
+                  placeholder="Full Name"
+                />
+                <div class="input-group">
+                  <input
+                    type="text"
+                    name="move_in_date"
+                    id="move_in_date"
+                    class="form-control"
+                    placeholder="Move in date"
+                  />
+                  <input
+                    type="text"
+                    name="number_of_people"
+                    id="number_of_people"
+                    class="form-control"
+                    placeholder="Number of people"
+                  />
+                </div>
+                <input
+                  type="text"
+                  name="company"
+                  id="company"
+                  class="form-control"
+                  placeholder="Company"
+                />
+                <input
+                  type="text"
+                  name="additional_info"
+                  id="additional_info"
+                  class="form-control"
+                  placeholder="Additional info"
+                />
+              </div>
+              <div
+                class="g-recaptcha"
+                data-sitekey="6LeLhFMqAAAAAFUZK4CVOxUlDQruKSjfxY9xgtPx"
+                style="padding: 0; margin: 0"
+              ></div>
+
+              <div class="form-btn">
+                <button type="submit">Enquire now</button>
+              </div>
+              <div id="msgSubmit" class="h3 hidden"></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- hero section -->
+
+    <!-- find your space -->
+    <section id="find-your-space">
+      <div class="container space-ctn">
+        <div class="">
+          <div class="space-head" data-aos="fade-up">
+            <h2>Find Your Space</h2>
+            <div class="small-border"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="space-row">
+            <div class="space-cards">
+              <div class="de-image">
+                <img
+                  src="./public/images/space-1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Private Office</h4>
+                  <span onclick="location.href='#contact'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem.
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Connection</li>
+                  <li>Unlimited Coffee &amp; Tea</li>
+                  <li>Phone Booth Access</li>
+                </ul>
+              </div>
+            </div>
+            <div class="space-cards">
+              <div class="de-image">
+                <img
+                  src="./public/images/space-2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Coworking Space</h4>
+                  <span onclick="location.href='#contact'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem.
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Connection</li>
+                  <li>Unlimited Coffee &amp; Tea</li>
+                  <li>Phone Booth Access</li>
+                </ul>
+              </div>
+            </div>
+            <div class="space-cards">
+              <div class="de-image">
+                <img
+                  src="./public/images/space-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Virtual Office</h4>
+                  <span onclick="location.href='#contact'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem.
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Connection</li>
+                  <li>Unlimited Coffee &amp; Tea</li>
+                  <li>Phone Booth Access</li>
+                </ul>
+              </div>
+            </div>
+            <div class="space-cards">
+              <div class="de-image">
+                <img
+                  src="./public/images/space-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Shared Office</h4>
+                  <span onclick="location.href='#contact'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem.
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Connection</li>
+                  <li>Unlimited Coffee &amp; Tea</li>
+                  <li>Phone Booth Access</li>
+                </ul>
+              </div>
+            </div>
+            <div class="space-cards">
+              <div class="de-image">
+                <img
+                  src="./public/images/space-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Hot Desk</h4>
+                  <span onclick="location.href='#contact'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem.
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Connection</li>
+                  <li>Unlimited Coffee &amp; Tea</li>
+                  <li>Phone Booth Access</li>
+                </ul>
+              </div>
+            </div>
+            <div class="space-cards">
+              <div class="de-image">
+                <img
+                  src="./public/images/space-3.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Meeting Room</h4>
+                  <span onclick="location.href='#contact'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem.
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Connection</li>
+                  <li>Unlimited Coffee &amp; Tea</li>
+                  <li>Phone Booth Access</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- find your space -->
+
+    <!-- shifts -->
+    <div class="shift-container">
+      <div class="shift-top-txt">
+        <h1>Space to Start,<br />Room to Grow</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Exercitationem eos sunt dolores pariatur facilis ipsam quam ex
+          provident. Veritatis impedit magnam eligendi inventore repellendus
+          sunt quod perferendis assumenda quam earum.
+        </p>
+      </div>
+      <!-- <div class="shift-img-con">
+        <img src="./public/images/zoopie.jpeg" alt="shifts" />
+      </div>
+      <div class="shift-data">
+        <div class="shift-data-txt">
+          <h3>Shifts</h3>
+          <h1>Night</h1>
+        </div>
+        <div class="shift-data-txt">
+          <h3>Shifts</h3>
+          <h1>Night</h1>
+        </div>
+        <div class="shift-data-txt">
+          <h3>Count</h3>
+          <h1>100000</h1>
+        </div>
+        <div class="shift-data-btn">Book Now</div>
+      </div> -->
+      <div class="shift-container">
+        <div class="shift-img-con">
+          <img
+            id="shift-image"
+            src="./public/images/zoopie.jpeg"
+            alt="shifts"
+          />
+        </div>
+        <div class="shift-data">
+          <div class="shift-data-txt" id="shift-info">
+            <div>
+              <h3>Shifts</h3>
+              <h1 id="shift-title">Night</h1>
+            </div>
+            <div>
+              <h3>Count</h3>
+              <h1 id="shift-count">100000</h1>
+            </div>
+            <div class="shift-data-btn">Book Now</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- shifts -->
+
+    <!-- why choose us -->
+    <section id="why-choose-us" class="no-top">
+      <div class="choose-container">
+        <div>
+          <div class="choose-text">
+            <div class="space-head">
+              <h2>Why Choose Us?</h2>
+              <div class="small-border"></div>
+            </div>
+          </div>
+          <div class="choose-us-row">
+            <div class="choose-us-image">
+              <img
+                src="public/images/our-faqs-img-1.webp"
+                class="lazy img-fluid animated-image"
+                alt=""
+              />
+              <img
+                src="public/images/our-faqs-img-1.webp"
+                class="lazy img-fluid animated-image"
+                alt=""
+              />
+              <img
+                src="public/images/our-faqs-img-1.webp"
+                class="lazy img-fluid animated-image"
+                alt=""
+              />
+              <img
+                src="public/images/our-faqs-img-1.webp"
+                class="lazy img-fluid animated-image"
+                alt=""
+              />
+            </div>
+
+            <div class="">
+              <div class="choose-us-txt-con">
+                <!-- data-aos="fade-down-right" -->
+                <div class="choose-us-text">
+                  <h4>Modern &amp; Comfortable</h4>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                  </p>
+                </div>
+                <!-- data-aos="fade-down-left" -->
+                <div class="choose-us-text">
+                  <h4>24/7 Secure Access</h4>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                  </p>
+                </div>
+                <!-- data-aos="fade-up-right" -->
+                <div class="choose-us-text">
+                  <h4>Free Drinks &amp; Snacks</h4>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                  </p>
+                </div>
+                <!-- data-aos="fade-up-left" -->
+                <div class="choose-us-text">
+                  <h4>Printing &amp; Scanning</h4>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                  </p>
+                </div>
+                <!-- data-aos="fade-up-left" -->
+                <div class="choose-us-text">
+                  <h4>Printing &amp; Scanning</h4>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                  </p>
+                </div>
+                <!-- data-aos="fade-up-left" -->
+                <div class="choose-us-text">
+                  <h4>Printing &amp; Scanning</h4>
+                  <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- why choose us -->
+
+    <!-- process section -->
+    <!-- <section id="process" class="process-sec">
+      data-aos="fade-up"
+      <div class="section-title">
+        <h3 class="">Process</h3>
+        <div class="small-border"></div>
+      </div>
+
+      <div class="process-cont">
+        <div class="process1-cont">
+          data-aos="flip-left"
+          <div class="process1-img">
+            <img
+              src="./public/images/our-faqs-img-1.webp"
+              alt="Night Process"
+            />
+          </div>
+          <div class="process-txt process-txt1">
+            data-aos="fade-down" data-aos-duration="100"
+            <h1>Night Process</h1>
+            data-aos="fade-down" data-aos-duration="150"
+            <h4>Our Efficient Night Operations</h4>
+            data-aos="fade-down" data-aos-duration="200"
+            <p>
+              Our night process is designed to ensure that all operations run
+              smoothly while minimizing disruptions. We focus on maintaining
+              high standards of quality and efficiency.
+            </p>
+            data-aos="fade-down" data-aos-duration="250"
+            <ul class="ul-style-2">
+              <li>All operations are monitored for quality assurance.</li>
+              <li>Nightly reports are generated to track progress.</li>
+              <li>Specialized teams work to handle overnight tasks.</li>
+              <li>Continuous training ensures staff are well-prepared.</li>
+              <li>Customer support is available around the clock.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="process1-cont process2-cont">
+          data-aos="flip-right"
+          <div class="process1-img">
+            <img src="./public/images/our-faqs-img-1.webp" alt="Day Process" />
+          </div>
+          <div class="process-txt process-text2">
+            data-aos="fade-down" data-aos-duration="100"
+            <h1>Day Process</h1>
+            data-aos="fade-down" data-aos-duration="150"
+            <h4>Our Streamlined Day Operations</h4>
+            <p data-aos="fade-down" data-aos-duration="200">
+              The day process focuses on maximizing productivity. Our teams are
+              dedicated to delivering exceptional service and results throughout
+              the business hours.
+            </p>
+            <ul class="ul-style-2" data-aos="fade-down" data-aos-duration="250">
+              <li>Real-time updates keep everyone informed.</li>
+              <li>Team collaboration tools enhance efficiency.</li>
+              <li>Client interactions are prioritized.</li>
+              <li>Regular feedback loops ensure improvement.</li>
+              <li>Strong focus on safety and compliance.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- process section -->
+
+    <!-- testimonials -->
+    <section class="testimonials">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h3>Testimonials</h3>
+          <div class="small-border"></div>
+          <!-- <h2>What our clients say</h2> -->
+        </div>
+        <div class="owl-carousel owl-theme testi">
+          <!-- Single Starts -->
+          <div class="item">
+            <div class="profile">
+              <img
+                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
+                alt=""
+              />
+              <div class="information">
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Furkan Giray</p>
+                <span>Web Developer</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              velit labore suscipit distinctio, officiis deserunt rem blanditiis
+              ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus
+              maiores impedit ducimus cum accusamus.
+            </p>
+            <div class="icon">
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="profile">
+              <img
+                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
+                alt=""
+              />
+              <div class="information">
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Furkan Giray</p>
+                <span>Web Developer</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              velit labore suscipit distinctio, officiis deserunt rem blanditiis
+              ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus
+              maiores impedit ducimus cum accusamus.
+            </p>
+            <div class="icon">
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="item">
+            <div class="profile">
+              <img
+                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
+                alt=""
+              />
+              <div class="information">
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Furkan Giray</p>
+                <span>Web Developer</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              velit labore suscipit distinctio, officiis deserunt rem blanditiis
+              ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus
+              maiores impedit ducimus cum accusamus.
+            </p>
+            <div class="icon">
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="item">
+            <div class="profile">
+              <img
+                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
+                alt=""
+              />
+              <div class="information">
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Furkan Giray</p>
+                <span>Web Developer</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              velit labore suscipit distinctio, officiis deserunt rem blanditiis
+              ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus
+              maiores impedit ducimus cum accusamus.
+            </p>
+            <div class="icon">
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="item">
+            <div class="profile">
+              <img
+                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
+                alt=""
+              />
+              <div class="information">
+                <div class="stars">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+                <p>Furkan Giray</p>
+                <span>Web Developer</span>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita
+              velit labore suscipit distinctio, officiis deserunt rem blanditiis
+              ducimus. Voluptate quaerat assumenda qui veniam facilis doloribus
+              maiores impedit ducimus cum accusamus.
+            </p>
+            <div class="icon">
+              <i class="fa fa-quote-right" aria-hidden="true"></i>
+            </div>
+          </div>
+          <!-- Single Ends -->
+        </div>
+      </div>
+    </section>
+    <!-- testimonials -->
+
+    <!-- faqs -->
+    <div id="faq" class="our-faqs">
+      <div class="container">
+        <div class="row section-row faq-section-row" style="margin-top: 30px">
+          <!-- Section Title Start -->
+          <div class="section-title" data-aos="fade-up">
+            <h3>FAQ's</h3>
+            <div class="small-border"></div>
+            <h2>Have Questions? <br style="padding: 10px" />We Have Answers</h2>
+            <p>
+              To help you make an informed choice, we’ve compiled answers to
+              some of the most frequently asked questions. If you need more
+              information, feel free to reach out to our team.
+            </p>
+          </div>
+          <!-- Section Title End -->
+        </div>
+
+        <div class="faq-container">
+          <div class="col-lg-5">
+            <!-- Our FAQs Images Start -->
+            <div class="our-faqs-images">
+              <div class="our-faqs-images-row">
+                <div class="">
+                  <!-- FAQs Img Start -->
+                  <div class="faqs-img-1">
+                    <figure
+                      class="image-anime reveal"
+                      style="
+                        transform: translate(0px, 0px);
+                        opacity: 1;
+                        visibility: inherit;
+                      "
+                    >
+                      <img
+                        src="public/images/our-faqs-img-1.webp"
+                        alt=""
+                        style="transform: translate(0px, 0px)"
+                      />
+                    </figure>
+                  </div>
+                  <!-- FAQs Img End -->
+                </div>
+                <div class="">
+                  <!-- FAQs Img Start -->
+                  <div class="faqs-img-2">
+                    <figure
+                      class="image-anime reveal"
+                      style="
+                        transform: translate(0px, 0px);
+                        opacity: 1;
+                        visibility: inherit;
+                      "
+                    >
+                      <img
+                        src="public/images/our-faqs-img-2.webp"
+                        alt=""
+                        style="transform: translate(0px, 0px)"
+                      />
+                    </figure>
+                  </div>
+                  <!-- FAQs Img End -->
+                </div>
+              </div>
+
+              <div class="our-faqs-images-row-1">
+                <div class="">
+                  <!-- FAQs Img Start -->
+                  <div class="faqs-img-1">
+                    <figure
+                      class="image-anime reveal"
+                      style="
+                        transform: translate(0px, 0px);
+                        opacity: 1;
+                        visibility: inherit;
+                      "
+                    >
+                      <img
+                        src="public/images/our-faqs-img-3.webp"
+                        alt=""
+                        style="transform: translate(0px, 0px)"
+                      />
+                    </figure>
+                  </div>
+                  <!-- FAQs Img End -->
+                </div>
+                <div class="">
+                  <!-- FAQs Img Start -->
+                  <div class="faqs-img-2">
+                    <figure
+                      class="image-anime reveal"
+                      style="
+                        transform: translate(0px, 0px);
+                        opacity: 1;
+                        visibility: inherit;
+                      "
+                    >
+                      <img
+                        src="public/images/our-faqs-img-4.webp"
+                        alt=""
+                        style="transform: translate(0px, 0px)"
+                      />
+                    </figure>
+                  </div>
+                  <!-- FAQs Img End -->
+                </div>
+              </div>
+
+              <div class="our-faqs-bulitup">
+                <img src="public/images/NGI_Headerlogo_4 .png.webp" alt="" />
+              </div>
+            </div>
+            <!-- Our FAQs Images End -->
+          </div>
+
+          <div class="faq-q">
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false">
+                  <span class="accordion-title"
+                    >What are the pricing options for the different
+                    spaces?</span
+                  >
+                  <span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    To help you make an informed choice, we’ve compiled answers
+                    to some of the most frequently asked questions. If you need
+                    more information, feel free to reach out to our team.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Can I rent a space for just a day?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Yes, we offer flexible rental plans, including daily,
+                    weekly, and monthly options.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false">
+                  <span class="accordion-title"
+                    >What amenities are included? </span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Our spaces include high-speed Wi-Fi, printing services,
+                    conference room access, and more.
+                  </p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false">
+                  <span class="accordion-title"
+                    >Are the workspaces fully furnished?</span
+                  ><span class="icon" aria-hidden="true"></span>
+                </button>
+                <div class="accordion-content">
+                  <p>
+                    Yes, all our office spaces come fully furnished with
+                    ergonomic chairs, desks, and high-speed internet. Additional
+                    amenities such as printers and meeting room equipment are
+                    also available.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- faqs -->
+
+    <!-- office tour vedio -->
+    <section id="office-tour" class="office-tour">
+      <div class="container">
+        <div class="">
+          <div class="">
+            <!-- Section Title Start -->
+            <div class="section-title" data-aos="fade-up">
+              <h3 class="">Office Tour Video</h3>
+              <div class="small-border"></div>
+              <h2>Take a Virtual tour of our space</h2>
+              <p
+                class=""
+                data-wow-delay="0.25s"
+                style="
+                  visibility: visible;
+                  animation-delay: 0.25s;
+                  animation-name: fadeInUp;
+                "
+              >
+                Experience NextGen Infratech Office Spaces from the comfort of
+                your screen
+              </p>
+            </div>
+            <!-- Section Title Youtube End -->
+          </div>
+        </div>
+      </div>
+      <div class="intro-video-box" data-cursor-text="Play">
+        <div class="video-image">
+          <figure class="image-anime">
+            <img src="public/images/video-bg.webp" alt="" />
+          </figure>
+        </div>
+
+        <!-- <div class="video-play-button">
+                  <div class="pulse-effect1 before"></div>
+                  <div class="pulse-effect1 after"></div>
+                  <a class="play-button">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 384 512"
+                      width="50"
+                      height="50"
+                      style="fill: #029ee5"
+                    >
+                      <path
+                        d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+                      />
+                    </svg>
+                  </a>
+                </div> -->
+
+        <div class="video-play-button">
+          <div class="pulse">
+            <span style="--i: 0"></span>
+            <span style="--i: 1"></span>
+            <span style="--i: 2"></span>
+            <span style="--i: 3"></span>
+          </div>
+
+          <a class="play-button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 384 512"
+              width="50"
+              height="50"
+              style="fill: #029ee5"
+            >
+              <path
+                d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80L0 432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="video-container" style="display: none">
+          <iframe
+            id="video"
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/Ur8BC49cEDc?autoplay=1"
+            frameborder="0"
+            allow="encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
+    <!-- office tour vedio -->
+
+    <!-- contact -->
+    <div id="contact" class="contact-us">
+      <div class="contact-us-container">
+        <div class="row align-items-center contact-cont">
+          <div class="contact-left-sec">
+            <!-- Contact Sidebar Start -->
+            <div class="contact-sidebar">
+              <!-- Contact Info Start -->
+              <div class="contact-info">
+                <div class="icon-box">
+                  <img src="public/images/icon-phone.svg" alt="" />
+                </div>
+                <div class="contact-info-content">
+                  <p>Book Your Space</p>
+                  <h3>+91 8108141777</h3>
+                </div>
+              </div>
+              <!-- Contact Info End -->
+
+              <!-- Contact Info Start -->
+              <div class="contact-info">
+                <div class="icon-box">
+                  <img src="public/images/icon-mail.svg" alt="" />
+                </div>
+                <div class="contact-info-content">
+                  <p>Email Address</p>
+                  <h3>info@nextgeninfratech.in</h3>
+                </div>
+              </div>
+              <!-- Contact Info End -->
+
+              <!-- Contact Info Image Start -->
+              <div class="contact-info-image">
+                <figure>
+                  <img src="public/images/contact-info-img.webp" alt="" />
+                </figure>
+              </div>
+              <!-- Contact Info Image End -->
+            </div>
+            <!-- Contact Sidebar End -->
+          </div>
+
+          <div class="form form-bottom">
+            <form
+              id="quick_form_2"
+              class="form-border bottom-form"
+              action="send-mail.php"
+              method="POST"
+            >
+              <div class="form-div form-div-bottom">
+                <div class="form-top">
+                  <h3>Let's Get In Touch</h3>
+                  <select
+                    class="form-control form-control-bottom"
+                    name="select_plan_2"
+                    id="select_plan_2"
+                  >
+                    <option value="" class="option-1">Pick an option</option>
+                    <option value="opt-1">Private Office</option>
+                    <option value="opt-2">Coworking Space</option>
+                    <option value="opt-3">Virtual Office</option>
+                    <option value="opt-4">Meeting Room</option>
+                  </select>
+                </div>
+
+                <div class="form-inputs">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="work_email_2"
+                      id="work_email_2"
+                      class="form-control form-control-bottom"
+                      placeholder="Work Email"
+                    />
+                    <input
+                      type="text"
+                      name="mobile_phone_2"
+                      id="mobile_phone_2"
+                      class="form-control form-control-bottom"
+                      placeholder="Mobile Phone"
+                    />
+                  </div>
+                  <input
+                    type="text"
+                    name="full_name_2"
+                    id="full_name_2"
+                    class="form-control form-control-bottom"
+                    placeholder="Full Name"
+                  />
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      name="move_in_date_2"
+                      id="move_in_date_2"
+                      class="form-control form-control-bottom"
+                      placeholder="Move in date"
+                    />
+                    <input
+                      type="text"
+                      name="number_of_people_2"
+                      id="number_of_people_2"
+                      class="form-control form-control-bottom"
+                      placeholder="Number of people"
+                    />
+                  </div>
+                  <input
+                    type="text"
+                    name="company_2"
+                    id="company_2"
+                    class="form-control form-control-bottom"
+                    placeholder="Company"
+                  />
+                  <input
+                    type="text"
+                    name="additional_info_2"
+                    id="additional_info_2"
+                    class="form-control form-control-bottom"
+                    placeholder="Additional info"
+                  />
+                </div>
+                <div
+                  class="g-recaptcha"
+                  style="height: 60px; width: 280px"
+                  data-sitekey="6LeLhFMqAAAAAFUZK4CVOxUlDQruKSjfxY9xgtPx"
+                ></div>
+
+                <div class="form-btn form-bottom-btn">
+                  <button type="submit" class="">Enquire now</button>
+                </div>
+                <div id="msgSubmitBottom" class="h3 hidden"></div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+
+    <!-- footer -->
+    <div class="pg-footer">
+      <footer class="footer">
+        <svg
+          class="footer-wave-svg"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 100"
+          preserveAspectRatio="none"
+        >
+          <path
+            class="footer-wave-path"
+            d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z"
+          ></path>
+        </svg>
+        <div class="footer-content">
+          <div class="footer-content-column">
+            <div class="footer-logo">
+              <a class="footer-logo-link" href="#">
+                <img src="./public/images/NGI_Headerlogo_4 .png.webp" />
+              </a>
+            </div>
+          </div>
+          <!-- <div class="footer-content-column">
+            <div class="footer-menu">
+              <h2 class="footer-menu-name">Company</h2>
+              <ul id="menu-company" class="footer-menu-list">
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
+                  <a href="#">Contact</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-taxonomy menu-item-object-category"
+                >
+                  <a href="#">News</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
+                  <a href="#">Careers</a>
+                </li>
+              </ul>
+            </div>
+          </div> -->
+          <div class="footer-content-column">
+            <div class="footer-menu">
+              <h2 class="footer-menu-name">Quick Links</h2>
+              <ul id="menu-quick-links" class="footer-menu-list">
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom"
+                >
+                  <a rel="noopener noreferrer" href="#home">Home</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom"
+                >
+                  <a rel="noopener noreferrer" href="#find-your-space"
+                    >Find your space</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
+                  <a href="#why-choose-us">Why Choose Us</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
+                  <a href="#process">Process</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type_archive menu-item-object-customer"
+                >
+                  <a href="#testimonials">Testimonials</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-post_type menu-item-object-page"
+                >
+                  <a href="#faq">FAQ's</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-content-column">
+            <div class="footer-call-to-action">
+              <h2 class="footer-call-to-action-title">Let's Chat</h2>
+              <p class="footer-call-to-action-description">
+                Have a support question?
+              </p>
+              <a
+                class="footer-call-to-action-button button"
+                href="tel:+1234567890"
+                target="_blank"
+              >
+                Get in Touch
+              </a>
+            </div>
+            <div class="footer-call-to-action">
+              <h2 class="footer-call-to-action-title">You Call Us</h2>
+              <p class="footer-call-to-action-link-wrapper">
+                <a
+                  class="footer-call-to-action-link"
+                  href="tel:0124-64XXXX"
+                  target="_self"
+                >
+                  0124-64XXXX
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="footer-social-links">
+            <svg
+              class="footer-social-amoeba-svg"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 236 54"
+              width="30px"
+            >
+              <path
+                class="footer-social-amoeba-path"
+                d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z"
+              ></path>
+            </svg>
+            <a
+              class="footer-social-link linkedin"
+              href="https://www.linkedin.com/company/nextgeninfratechsolutionsllp/?originalSubdomain=in"
+              target="_blank"
+            >
+              <span class="hidden-link-text">Linkedin</span>
+              <svg
+                class="footer-social-icon-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 30 30"
+                width="30px"
+              >
+                <path
+                  class="footer-social-icon-path"
+                  d="M9,25H4V10h5V25z M6.501,8C5.118,8,4,6.879,4,5.499S5.12,3,6.501,3C7.879,3,9,4.121,9,5.499C9,6.879,7.879,8,6.501,8z M27,25h-4.807v-7.3c0-1.741-0.033-3.98-2.499-3.98c-2.503,0-2.888,1.896-2.888,3.854V25H12V9.989h4.614v2.051h0.065 c0.642-1.18,2.211-2.424,4.551-2.424c4.87,0,5.77,3.109,5.77,7.151C27,16.767,27,25,27,25z"
+                ></path>
+              </svg>
+            </a>
+            <a
+              class="footer-social-link twitter"
+              href="https://www.instagram.com/nextgen_infratech_solutions/"
+              target="_blank"
+            >
+              <span class="hidden-link-text">Instagram</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30px"
+                viewBox="0 0 24 24"
+                fill="#ffffff"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                  fill="#ffffff"
+                />
+                <path
+                  d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                  fill="#ffffff"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                  fill="#ffffff"
+                />
+              </svg>
+            </a>
+            <a
+              class="footer-social-link youtube"
+              href="https://www.youtube.com/@WorkWell_Co-working_Spaces"
+              target="_blank"
+            >
+              <span class="hidden-link-text">Youtube</span>
+              <svg
+                class="footer-social-icon-svg"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 30 30"
+                width="30px"
+              >
+                <path
+                  class="footer-social-icon-path"
+                  d="M 15 4 C 10.814 4 5.3808594 5.0488281 5.3808594 5.0488281 L 5.3671875 5.0644531 C 3.4606632 5.3693645 2 7.0076245 2 9 L 2 15 L 2 15.001953 L 2 21 L 2 21.001953 A 4 4 0 0 0 5.3769531 24.945312 L 5.3808594 24.951172 C 5.3808594 24.951172 10.814 26.001953 15 26.001953 C 19.186 26.001953 24.619141 24.951172 24.619141 24.951172 L 24.621094 24.949219 A 4 4 0 0 0 28 21.001953 L 28 21 L 28 15.001953 L 28 15 L 28 9 A 4 4 0 0 0 24.623047 5.0546875 L 24.619141 5.0488281 C 24.619141 5.0488281 19.186 4 15 4 z M 12 10.398438 L 20 15 L 12 19.601562 L 12 10.398438 z"
+                ></path>
+              </svg>
+            </a>
+            <a class="footer-social-link github" href="#" target="_blank">
+              <span class="hidden-link-text">Facebook</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                fill="#ffffff"
+                width="30px"
+                version="1.1"
+                id="Layer_1"
+                viewBox="0 0 310 310"
+                xml:space="preserve"
+              >
+                <g id="XMLID_834_">
+                  <path
+                    id="XMLID_835_"
+                    d="M81.703,165.106h33.981V305c0,2.762,2.238,5,5,5h57.616c2.762,0,5-2.238,5-5V165.765h39.064   c2.54,0,4.677-1.906,4.967-4.429l5.933-51.502c0.163-1.417-0.286-2.836-1.234-3.899c-0.949-1.064-2.307-1.673-3.732-1.673h-44.996   V71.978c0-9.732,5.24-14.667,15.576-14.667c1.473,0,29.42,0,29.42,0c2.762,0,5-2.239,5-5V5.037c0-2.762-2.238-5-5-5h-40.545   C187.467,0.023,186.832,0,185.896,0c-7.035,0-31.488,1.381-50.804,19.151c-21.402,19.692-18.427,43.27-17.716,47.358v37.752H81.703   c-2.762,0-5,2.238-5,5v50.844C76.703,162.867,78.941,165.106,81.703,165.106z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="footer-copyright-wrapper">
+            <p class="footer-copyright-text">
+              <a class="footer-copyright-link" href="#" target="_self">
+                ©2024. | NextGen Infratech | All rights reserved.
+              </a>
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- footer -->
+
+    <script>
+      function toggleMenu() {
+        const checkbox = document.getElementById("menuCheckbox");
+        checkbox.checked = false; // Uncheck to close the menu
+      }
+    </script>
+
+    <script src="public/js/script.js"></script>
+    <script src="public/js/shifts.js"></script>
+    <script src="public/js/animation.js"></script>
+    <!-- <script src="public/js/form-validation.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="public/js/form-submit.js"></script>
+    <script src="public/js/form-bottom.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+</html>
