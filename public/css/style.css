@@ -703,7 +703,7 @@ header.scrolled {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
     padding: 10px;
-    margin: 40px 0 0 40px;
+    margin: 5px 0 0 40px;
 }
 
 /* .choose-us-txt-con>div:nth-child(-n+2) {
