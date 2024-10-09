@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->addAddress('vinaykumar@nextgeninfratech.in');
 
         $mail->isHTML(true);
-        $mail->Subject = 'New Leads - ' . ($isBottomForm ? ' Co-Working Space' : ' Co-Working Space');
+        $mail->Subject = 'New - ' . ($isBottomForm ? ' Co-Working Space' : ' Co-Working Space');
         $mail->Body = "
         <html>
         <body style='font-family: Arial, sans-serif; color: #333;'>
