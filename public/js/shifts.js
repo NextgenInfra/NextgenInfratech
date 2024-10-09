@@ -2,12 +2,12 @@ const images = [
   {
     src: "./public/images/zoopie.jpeg",
     title: "Night",
-    count: "100000",
+    count: "500+",
   },
   {
-    src: "./public/images/zoopie.jpeg",
+    src: "./public/images/_6_08393.jpg",
     title: "Day",
-    count: "50000",
+    count: "900+",
   },
 ];
 

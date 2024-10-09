@@ -11,6 +11,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Cabin", sans-serif;
+    /* font-family: "Crimson Text", serif; */
     box-sizing: border-box;
     --body-font: "Work Sans", Helvetica, Arial, sans-serif;
     --title-font: "Work Sans", Helvetica, Arial, sans-serif;
@@ -55,7 +57,24 @@ body.dark-scheme {
     /* Change to red for error messages */
 }
 
+.font-heading {
+    /* font-family: "Raleway", sans-serif; */
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Nunito", sans-serif; */
+    /* font-family: "Lato", sans-serif; */
+    font-family: "Cabin", sans-serif;
+}
 
+.tour-font {
+    /* font-family: "Assistant", sans-serif; */
+    /* font-family: "Cabin", sans-serif; */
+    /* font-family: "Work Sans", sans-serif; */
+}
+
+.para-font {
+    /* font-family: "Lato", sans-serif; */
+    font-family: "Montserrat", sans-serif;
+}
 
 /* navbar */
 header {
@@ -226,6 +245,9 @@ header.scrolled {
 
 
 /* navbar */
+.hero-cnt {
+    margin-top: 60px !important;
+}
 
 /* landing section */
 .landing {
@@ -295,7 +317,7 @@ header.scrolled {
     color: white;
     border: none;
     border-radius: 10px;
-    background: #25D366;
+    background: #21b858;
     cursor: pointer;
     box-shadow: 0 0 0 0 rgba(90, 212, 116, 0.5);
     animation: pulse 1.5s infinite;
@@ -328,6 +350,8 @@ header.scrolled {
 .sec-btn i {
     margin-right: 6px;
 }
+
+
 
 /* .sec-btn {
     display: flex;
@@ -375,13 +399,12 @@ header.scrolled {
     animation: glowing 5000ms infinite;
 } */
 
-
 .row {
     color: white;
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 .row_h3 {
@@ -524,18 +547,18 @@ header.scrolled {
 
 .space-ctn {
     max-width: 1200px;
-    margin: 15px auto;
+    margin: 55px auto;
     padding: 20px;
 }
 
 .space-head {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .space-head h2 {
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 34px;
 }
 
@@ -576,19 +599,24 @@ header.scrolled {
     margin-bottom: 20px;
 }
 
+.card-n-quote h4 {
+    font-size: 20px;
+}
+
 .card-n-quote span {
     color: white;
     padding: 2px 15px;
-    background-color: #12223b;
+    background-color: #2d6cca;
     font-weight: bold;
     cursor: pointer;
 }
 
 .card-n-quote span:hover {
-    background-color: #12223bde;
+    background-color: #2d6ccad2;
 }
 
 .card-p {
+    height: 100px;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -630,7 +658,7 @@ header.scrolled {
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    background: #12223b;
+    background: #2d6cca;
     color: #ffffff;
 }
 
@@ -661,6 +689,11 @@ header.scrolled {
 /* find your space */
 
 /* why choose us */
+.no-top {
+    display: flex;
+    justify-content: center;
+}
+
 .choose-us-row {
     display: flex;
     align-items: start;
@@ -687,13 +720,13 @@ header.scrolled {
 .choose-us-image {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    padding: 20px;
+    gap: 8px;
+    padding: 10px;
 }
 
 .choose-us-image img {
-    width: 220px;
-    height: 220px;
+    width: 250px;
+    height: 250px;
 }
 
 
@@ -701,9 +734,9 @@ header.scrolled {
 .choose-us-txt-con {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
+    gap: 40px 20px;
     padding: 10px;
-    margin: 5px 0 0 40px;
+    margin: 30px 0 0 40px;
 }
 
 /* .choose-us-txt-con>div:nth-child(-n+2) {
@@ -979,11 +1012,15 @@ header.scrolled {
 .faq-container {
     display: flex;
     align-items: center;
-    margin: 80px 0;
+    margin: 40px 40px;
 }
 
 .faq-q {
     margin-left: 70px;
+}
+
+.faq-q .faq-para {
+    margin: 0 310px;
 }
 
 .section-title h2, p {
@@ -1024,10 +1061,11 @@ header.scrolled {
 }
 
 .our-faqs-bulitup img {
-    max-width: 120px;
+    max-width: 90px;
     background-color: white;
-    padding: 5px;
-    border-radius: 10px;
+    /* padding: 5px; */
+    padding: 11px 0px 0px 5px;
+    border-radius: 100%;
 }
 
 .our-faqs-images .row:first-child {
@@ -1141,7 +1179,7 @@ header.scrolled {
 .accordion-content p {
     font-size: 1rem;
     font-weight: 300;
-    margin: 2em 0;
+    margin: 0 0 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -1679,11 +1717,13 @@ header.scrolled {
 .testimonials {
     position: relative;
     padding: 50px 0;
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    margin: 0 90px;
 }
 
 .testimonials .section-title {
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
 }
 
 .testimonials .section-title h2 {
@@ -1699,7 +1739,7 @@ header.scrolled {
 
 .testimonials .testi .item {
     max-width: 400px;
-    height: 370px;
+    height: 320px;
     background: #fff;
     border: 1px solid rgba(223, 148, 148, 0.192);
     cursor: pointer;
@@ -1776,7 +1816,7 @@ header.scrolled {
 }
 
 .testimonials .testi .item .icon i {
-    font-size: 32px;
+    font-size: 22px;
     color: #FFD832;
 }
 
@@ -1809,7 +1849,7 @@ header.scrolled {
 /* shifts */
 .shift-container {
     position: relative;
-    margin: 40px auto;
+    margin: 10px auto;
 }
 
 .shift-top-txt {
@@ -1817,7 +1857,7 @@ header.scrolled {
     justify-content: space-between;
     align-items: center;
     height: 200px;
-    margin: 0 100px;
+    margin: 0 150px;
 }
 
 .shift-top-txt h1 {
@@ -1977,19 +2017,47 @@ header.scrolled {
 
 .float_wp {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    right: 40px;
-    background-color: #25d366;
+    /* width: 100px;
+    height: 80px; */
+    bottom: 50px;
+    right: 53px;
+    /* background-color: #25d366; */
     color: #FFF;
     border-radius: 50px;
     text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
+    font-size: 50px;
     z-index: 100;
 }
 
 .my-float_wp {
     margin-top: 16px;
+}
+
+.pulse-wp {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    background: #25d366;
+    border-radius: 50%;
+}
+
+.pulse-wp span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity: .8;
+    animation: pulseAnimateWp 4s ease-out infinite;
+    animation-delay: calc(1s * var(--i));
+}
+
+@keyframes pulseAnimateWp {
+    100% {
+        opacity: 0;
+        transform: scale(1.5);
+    }
 }
