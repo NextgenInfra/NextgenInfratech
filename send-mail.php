@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         echo "Please complete the reCAPTCHA verification.";
         exit;
     }
-    
+
     // Determine which form was submitted
     $isBottomForm = isset($_POST['full_name_2']);
 
@@ -83,11 +83,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
-        $mail->setFrom('dm@nextgeninfratech.in', 'NextGen Infratech');
-        $mail->addAddress('dm@nextgeninfratech.in');
+        $mail->setFrom('vinaykumar@nextgeninfratech.in', 'Vinay Kumar');
+        $mail->addAddress('vinaykumar@nextgeninfratech.in');
 
         $mail->isHTML(true);
-        $mail->Subject = 'Form Submission - ' . ($isBottomForm ? 'Bottom Form' : 'Top Form');
+        $mail->Subject = 'New Leads - ' . ($isBottomForm ? ' Co-Working Space' : ' Co-Working Space');
         $mail->Body = "
         <html>
         <body style='font-family: Arial, sans-serif; color: #333;'>

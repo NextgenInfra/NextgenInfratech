@@ -18,6 +18,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!--=== Title & Favicon ===-->
@@ -116,7 +120,7 @@
           </p>
 
           <a
-            href="https://wa.me/"
+            href="https://wa.me/8169922745"
             target="_blank"
             class="sec-btn button-ripple"
           >
@@ -1058,7 +1062,7 @@
                 </div>
                 <div class="contact-info-content">
                   <p>Book Your Space</p>
-                  <h3>+91 8108141777</h3>
+                  <h3>+91 8169922745</h3>
                 </div>
               </div>
               <!-- Contact Info End -->
@@ -1405,11 +1409,34 @@
     </div>
     <!-- footer -->
 
+    <a
+      href="https://wa.me/8169922745"
+      class="float_wp"
+      target="_blank"
+      id="whatsappButton"
+    >
+      <i class="fa fa-whatsapp my-float_wp"></i>
+    </a>
+
     <script>
       function toggleMenu() {
         const checkbox = document.getElementById("menuCheckbox");
         checkbox.checked = false; // Uncheck to close the menu
       }
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            // Adjust the scroll threshold as needed
+            $("#whatsappButton").fadeIn();
+          } else {
+            $("#whatsappButton").fadeOut();
+          }
+        });
+      });
     </script>
 
     <script src="public/js/script.js"></script>
