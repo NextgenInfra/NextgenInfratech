@@ -524,7 +524,7 @@ header.scrolled {
 
 .space-ctn {
     max-width: 1200px;
-    margin: 50px auto;
+    margin: 15px auto;
     padding: 20px;
 }
 
@@ -1680,6 +1680,10 @@ header.scrolled {
     position: relative;
     padding: 50px 0;
     font-family: 'Poppins', sans-serif
+}
+
+.testimonials .section-title{
+   margin-bottom: 20px;
 }
 
 .testimonials .section-title h2 {
