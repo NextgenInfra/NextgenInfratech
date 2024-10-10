@@ -61,10 +61,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Common plan names
     $planNames = [
-        'opt-1' => 'Private Office',
-        'opt-2' => 'Coworking Space',
-        'opt-3' => 'Virtual Office',
-        'opt-4' => 'Meeting Room',
+        'opt-1' => 'Dedicated Desk',
+        'opt-2' => 'Private Cabins',
+        'opt-3' => 'Meeting Rooms',
+        'opt-4' => 'Conference Room',
+        'opt-5' => 'Training Room',
+        'opt-6' => 'Mini Cabin',
     ];
 
     // Get the readable name for the selected plan

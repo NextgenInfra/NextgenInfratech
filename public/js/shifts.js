@@ -1,6 +1,6 @@
 const images = [
   {
-    src: "./public/images/zoopie.jpeg",
+    src: "./public/images/night1.jpg",
     title: "Night",
     count: "500+",
   },

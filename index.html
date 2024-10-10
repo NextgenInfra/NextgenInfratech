@@ -81,15 +81,15 @@
                 alt=""
                 class="logo"
                 src="./public/images/NGI_Headerlogo_4 .png.webp"
-                height="70px"
-                width="150px"
+                height="60px"
+                width="120px"
               />
             </a>
           </div>
           <ul class="mainmenu">
-            <li>
+            <!-- <li>
               <a href="index.html">Home<span></span></a>
-            </li>
+            </li> -->
             <li>
               <a href="#find-your-space">Find your space<span></span></a>
             </li>
@@ -97,13 +97,16 @@
               <a href="#why-choose-us">Why choose us<span></span></a>
             </li>
             <li>
+              <a href="#clients">Our Clients<span></span></a>
+            </li>
+            <!-- <li>
               <a href="#process">Process<span></span></a>
-            </li>
-            <li>
+            </li> -->
+            <!-- <li>
               <a href="#testimonials">Testimonials<span></span></a>
-            </li>
+            </li> -->
             <li>
-              <a href="#faq">FAQs<span></span></a>
+              <a href="#faq">FAQ's<span></span></a>
             </li>
             <li>
               <a href="#contact">Contact<span></span></a>
@@ -128,12 +131,15 @@
                     >Why Choose Us</a
                   >
                 </li>
-                <li><a href="#process" onclick="toggleMenu()">Process</a></li>
                 <li>
-                  <a href="#testimonials" onclick="toggleMenu()"
+                  <a href="#clients" onclick="toggleMenu()">Our Clients</a>
+                </li>
+                <!-- <li><a href="#process" onclick="toggleMenu()">Process</a></li>
+                <li> -->
+                <!-- <a href="#testimonials" onclick="toggleMenu()"
                     >Testimonials</a
                   >
-                </li>
+                </li> -->
                 <li><a href="#faq" onclick="toggleMenu()">FAQ's</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
               </ul>
@@ -148,12 +154,12 @@
     <section id="home" class="landing">
       <div class="sec-body">
         <div class="sec-heading">
-          <h2 data-aos="fade-right" data-aos-delay="100">We are Cospace</h2>
-          <h1 data-aos="fade-left" data-aos-delay="200">
-            Elevate Your <span class="id-color">Workspace</span> with
+          <h2>We are #1 Cospace</h2>
+          <h1 class="heading-banner">
+            Upgrade Your <span class="id-color">Workspace</span> with
             <span class="id-color">NextGen Infratech</span>
           </h1>
-          <p data-aos="fade-right" data-aos-delay="300">
+          <p>
             Flexible, Modern, and Productive Co-working Spaces in the Heart of
             Navi Mumbai
           </p>
@@ -169,12 +175,7 @@
             >
           </a>
 
-          <div
-            class="row hero-cnt"
-            data-aos="fade-left"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-delay="400"
-          >
+          <div class="row hero-cnt">
             <div class="wow fadeInRight mb30 animated" data-wow-delay="1.1s">
               <div class="de_count text-left">
                 <h3 class="row_h3"><span>1k</span>+</h3>
@@ -216,10 +217,12 @@
                   id="select_plan"
                 >
                   <option value="">Pick an option</option>
-                  <option value="opt-1">Private Office</option>
-                  <option value="opt-2">Coworking Space</option>
-                  <option value="opt-3">Virtual Office</option>
-                  <option value="opt-4">Meeting Room</option>
+                  <option value="opt-1">Dedicated Desk</option>
+                  <option value="opt-2">Private Cabins</option>
+                  <option value="opt-3">Meeting Rooms</option>
+                  <option value="opt-4">Conference Room</option>
+                  <option value="opt-5">Training Room</option>
+                  <option value="opt-6">Mini Cabin</option>
                 </select>
               </div>
 
@@ -308,88 +311,72 @@
           <div class="space-row">
             <div class="space-cards">
               <div class="de-image">
-                <img
-                  src="./public/images/post-1.webp"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="./public/images/c1.jpg" class="img-fluid" alt="" />
+              </div>
+              <div class="text">
+                <div class="card-n-quote">
+                  <h4>Dedicated Desk</h4>
+                  <span onclick="location.href='#contact-form'">Get Quote</span>
+                </div>
+                <p class="card-p">
+                  Flexible seating options designed for creative freelancers and
+                  those looking for a dynamic workspace
+                </p>
+                <ul class="ul-style-2">
+                  <li>High Speed Internet</li>
+                  <li>Free Tea &amp; Coffee</li>
+                  <li>Modern Amneties</li>
+                </ul>
+              </div>
+            </div>
+            <div class="space-cards">
+              <div class="de-image">
+                <img src="./public/images/c3.jpg" class="img-fluid" alt="" />
               </div>
               <div class="text">
                 <div class="card-n-quote">
                   <h4>Private Cabins</h4>
-                  <span onclick="location.href='#contact'">Get Quote</span>
+                  <span onclick="location.href='#contact-form'">Get Quote</span>
                 </div>
                 <p class="card-p">
                   For those who need privacy, our spacious, fully furnished
                   cabins offer a focused work environment.
                 </p>
                 <ul class="ul-style-2">
-                  <li>High Speed Connection</li>
-                  <li>Unlimited Coffee &amp; Tea</li>
-                  <li>Phone Booth Access</li>
+                  <li>High Speed Internet</li>
+                  <li>Free Tea &amp; Coffee</li>
+                  <li>Modern Amneties</li>
                 </ul>
               </div>
             </div>
             <div class="space-cards">
               <div class="de-image">
-                <img
-                  src="./public/images/post-3.webp"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="./public/images/c5.jpg" class="img-fluid" alt="" />
               </div>
               <div class="text">
                 <div class="card-n-quote">
                   <h4>Meeting Room</h4>
-                  <span onclick="location.href='#contact'">Get Quote</span>
+                  <span onclick="location.href='#contact-form'">Get Quote</span>
                 </div>
                 <p class="card-p">
-                  Ideal for small talks and teamwork, our meeting rooms offer a
-                  private, efficient space for collaboration.
+                  Perfect for smaller discussions and collaborations, our
+                  meeting rooms provide a private, productive space.
                 </p>
                 <ul class="ul-style-2">
-                  <li>High Speed Connection</li>
-                  <li>Unlimited Coffee &amp; Tea</li>
-                  <li>Phone Booth Access</li>
+                  <li>High Speed Internet</li>
+                  <li>Free Tea &amp; Coffee</li>
+                  <li>Modern Amneties</li>
                 </ul>
               </div>
             </div>
             <div class="space-cards">
               <div class="de-image">
-                <img
-                  src="./public/images/post-2.webp"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="text">
-                <div class="card-n-quote">
-                  <h4>Private Cabins</h4>
-                  <span onclick="location.href='#contact'">Get Quote</span>
-                </div>
-                <p class="card-p">
-                  For those who need privacy, our spacious, fully furnished
-                  cabins offer a focused work environ
-                </p>
-                <ul class="ul-style-2">
-                  <li>High Speed Connection</li>
-                  <li>Unlimited Coffee &amp; Tea</li>
-                  <li>Phone Booth Access</li>
-                </ul>
-              </div>
-            </div>
-            <div class="space-cards">
-              <div class="de-image">
-                <img
-                  src="./public/images/Confrence Room.webp"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="./public/images/c2.jpg" class="img-fluid" alt="" />
               </div>
               <div class="text">
                 <div class="card-n-quote">
                   <h4>Conference Room</h4>
-                  <span onclick="location.href='#contact'">Get Quote</span>
+                  <span onclick="location.href='#contact-form'">Get Quote</span>
                 </div>
                 <p class="card-p">
                   Our conference rooms are fully equipped with high-speed
@@ -397,24 +384,20 @@
                   meetings run smoothly.
                 </p>
                 <ul class="ul-style-2">
-                  <li>High Speed Connection</li>
-                  <li>Unlimited Coffee &amp; Tea</li>
-                  <li>Phone Booth Access</li>
+                  <li>High Speed Internet</li>
+                  <li>Free Tea &amp; Coffee</li>
+                  <li>Modern Amneties</li>
                 </ul>
               </div>
             </div>
             <div class="space-cards">
               <div class="de-image">
-                <img
-                  src="./public/images/post-3 (1).webp"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="./public/images/c4.jpg" class="img-fluid" alt="" />
               </div>
               <div class="text">
                 <div class="card-n-quote">
                   <h4>Training Room</h4>
-                  <span onclick="location.href='#contact'">Get Quote</span>
+                  <span onclick="location.href='#contact-form'">Get Quote</span>
                 </div>
                 <p class="card-p">
                   A specialized room equipped for team training, workshops, or
@@ -422,33 +405,30 @@
                   development.
                 </p>
                 <ul class="ul-style-2">
-                  <li>High Speed Connection</li>
-                  <li>Unlimited Coffee &amp; Tea</li>
-                  <li>Phone Booth Access</li>
+                  <li>High Speed Internet</li>
+                  <li>Free Tea &amp; Coffee</li>
+                  <li>Modern Amneties</li>
                 </ul>
               </div>
             </div>
             <div class="space-cards">
               <div class="de-image">
-                <img
-                  src="./public/images/space-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
+                <img src="./public/images/c6.jpg" class="img-fluid" alt="" />
               </div>
               <div class="text">
                 <div class="card-n-quote">
-                  <h4>Event Space</h4>
-                  <span onclick="location.href='#contact'">Get Quote</span>
+                  <h4>Mini Cabin</h4>
+                  <span onclick="location.href='#contact-form'">Get Quote</span>
                 </div>
                 <p class="card-p">
-                  Host workshops or seminars in our versatile space, equipped
-                  with audio-visual support and catering options available.
+                  Our Mini Cabins provide a private, cozy workspace perfect for
+                  individuals or small teams of up to 2 people, ensuring focused
+                  productivity.
                 </p>
                 <ul class="ul-style-2">
-                  <li>High Speed Connection</li>
-                  <li>Unlimited Coffee &amp; Tea</li>
-                  <li>Phone Booth Access</li>
+                  <li>High Speed Internet</li>
+                  <li>Free Tea &amp; Coffee</li>
+                  <li>Modern Amneties</li>
                 </ul>
               </div>
             </div>
@@ -504,7 +484,9 @@
               <h3>Seats Available</h3>
               <h1 id="shift-count">500+</h1>
             </div>
-            <div class="shift-data-btn">Book Now</div>
+            <div onclick="location.href='#contact-form'" class="shift-data-btn">
+              Book Now
+            </div>
           </div>
         </div>
       </div>
@@ -526,22 +508,22 @@
           <div class="choose-us-row">
             <div class="choose-us-image">
               <img
-                src="public/images/22.webp"
+                src="public/images/5.jpg"
                 class="lazy img-fluid animated-image"
                 alt=""
               />
               <img
-                src="public/images/44.webp"
+                src="public/images/2.jpg"
                 class="lazy img-fluid animated-image"
                 alt=""
               />
               <img
-                src="public/images/33.webp"
+                src="public/images/3.jpg"
                 class="lazy img-fluid animated-image"
                 alt=""
               />
               <img
-                src="public/images/11.webp"
+                src="public/images/4.jpg"
                 class="lazy img-fluid animated-image"
                 alt=""
               />
@@ -550,46 +532,49 @@
             <div class="">
               <div class="choose-us-txt-con">
                 <div class="choose-us-text">
-                  <h4>Modern &amp; Comfortable</h4>
+                  <h4>Modern Amneties</h4>
                   <p>
-                    Experience a stylish environment designed for productivity
-                    and comfort, ensuring you feel at home while you work.
+                    Enjoy fully equipped, ergonomically designed workspaces with
+                    all the modern comforts to enhance productivity and comfort.
                   </p>
                 </div>
                 <div class="choose-us-text">
                   <h4>24/7 Secure Access</h4>
                   <p>
-                    Enjoy peace of mind with round-the-clock secure access to
-                    your workspace, allowing you to work whenever you need.
+                    Work on your own terms with round-the-clock access, secured
+                    by top-notch security systems to ensure your safety at all
+                    times.
                   </p>
                 </div>
                 <div class="choose-us-text">
-                  <h4>Free Drinks &amp; Snacks</h4>
+                  <h4>Housekeeping Service</h4>
                   <p>
-                    Stay refreshed with complimentary drinks and snacks
-                    available throughout the day, fueling your creativity and
-                    focus.
-                  </p>
-                </div>
-                <div class="choose-us-text">
-                  <h4>Printing &amp; Scanning</h4>
-                  <p>
-                    Access convenient printing and scanning services, making it
-                    easy to handle all your document needs on-site.
+                    Focus on your work while we take care of cleanliness. Our
+                    dedicated housekeeping team ensures a spotless and
+                    professional environment.
                   </p>
                 </div>
                 <div class="choose-us-text">
                   <h4>Community Events</h4>
                   <p>
-                    Join our regular community events that foster networking,
-                    collaboration, and inspiration among our diverse members.
+                    Join a vibrant network of like-minded professionals through
+                    regular community events that foster collaboration and
+                    growth.
                   </p>
                 </div>
                 <div class="choose-us-text">
-                  <h4>Flexible Memberships</h4>
+                  <h4>Prime Location</h4>
                   <p>
-                    Choose from a variety of flexible membership options that
-                    suit your needs, whether you need a desk for a day/month.
+                    Situated in Navi Mumbai’s key business hubs, our office
+                    spaces offer easy access to transportation, dining, and
+                    commercial centers.
+                  </p>
+                </div>
+                <div class="choose-us-text">
+                  <h4>High-Speed Internet</h4>
+                  <p>
+                    Stay connected with lightning-fast internet that ensures
+                    uninterrupted workflow and seamless virtual communication.
                   </p>
                 </div>
               </div>
@@ -678,20 +663,16 @@
           <!-- Single Starts -->
           <div class="item">
             <div class="profile">
-              <img
-                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
-                alt=""
-              />
+              <img src="./public/images/profile/1.png" alt="" />
               <div class="information">
                 <div class="stars">
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
                 </div>
                 <p>Ravi S.</p>
-                <span>CEO of Innovate Solutions</span>
+                <span>Employee at CMS</span>
               </div>
             </div>
             <p>
@@ -706,20 +687,15 @@
 
           <div class="item">
             <div class="profile">
-              <img
-                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
-                alt=""
-              />
+              <img src="./public/images/profile/2.png" alt="" />
               <div class="information">
                 <div class="stars">
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
                 </div>
                 <p>Ananya K.</p>
-                <span>Founder of Bright Ideas Consulting</span>
+                <span>Manager at Fortis</span>
               </div>
             </div>
             <p>
@@ -733,20 +709,17 @@
           </div>
           <div class="item">
             <div class="profile">
-              <img
-                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
-                alt=""
-              />
+              <img src="./public/images/profile/1.png" alt="" />
               <div class="information">
                 <div class="stars">
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
+
                   <i class="fa fa-star"></i>
                   <i class="fa fa-star"></i>
                 </div>
                 <p>Rajesh P.</p>
-                <span>Manager at TechHub Inc.</span>
+                <span>Manager at HCAH.</span>
               </div>
             </div>
             <p>
@@ -760,10 +733,7 @@
           </div>
           <div class="item">
             <div class="profile">
-              <img
-                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
-                alt=""
-              />
+              <img src="./public/images/profile/1.png" alt="" />
               <div class="information">
                 <div class="stars">
                   <i class="fa fa-star"></i>
@@ -773,7 +743,7 @@
                   <i class="fa fa-star"></i>
                 </div>
                 <p>Vikram T.</p>
-                <span>Co-Founder of StartUp Nation </span>
+                <span>Manager at HDB</span>
               </div>
             </div>
             <p>
@@ -787,10 +757,7 @@
           </div>
           <div class="item">
             <div class="profile">
-              <img
-                src="https://images.unsplash.com/photo-1521225099409-8e1efc95321d?ixlib=rb-1.2.1&auto=format&fit=crop&h=153&q=80"
-                alt=""
-              />
+              <img src="./public/images/profile/2.png" alt="" />
               <div class="information">
                 <div class="stars">
                   <i class="fa fa-star"></i>
@@ -800,7 +767,7 @@
                   <i class="fa fa-star"></i>
                 </div>
                 <p>Sonia R.</p>
-                <span>CEO of Global Reach Marketing</span>
+                <span>Manager at MyOperator</span>
               </div>
             </div>
             <p>
@@ -823,12 +790,12 @@
       <div class="container">
         <div class="row section-row faq-section-row">
           <!-- Section Title Start -->
-          <div class="section-title" data-aos="fade-up">
+          <div class="section-title">
             <h3 class="faqmargin font-heading">FAQ's</h3>
             <div class="small-border"></div>
             <!-- <h2>Have Questions? <br style="padding: 10px" />We Have Answers</h2> -->
-            <h2 style="font-size: 30px">Have Questions?</h2>
-            <p class="faq-para" style="margin: 20px 200px; color: #404040">
+            <!-- <h2 style="font-size: 30px">Have Questions?</h2> -->
+            <p class="faq-para" style="color: #404040">
               At NextGen Infratech, we understand that choosing the right
               coworking space is a big decision. To help you make an informed
               choice, we have compiled answers to some of the most frequently
@@ -845,7 +812,7 @@
               <div class="our-faqs-images-row">
                 <div class="">
                   <!-- FAQs Img Start -->
-                  <div class="faqs-img-1">
+                  <div class="faq-img faqs-img-1">
                     <figure
                       class="image-anime reveal"
                       style="
@@ -855,7 +822,7 @@
                       "
                     >
                       <img
-                        src="public/images/our-faqs-img-1.webp"
+                        src="public/images/faq/1.jpg"
                         alt=""
                         style="transform: translate(0px, 0px)"
                       />
@@ -865,7 +832,7 @@
                 </div>
                 <div class="">
                   <!-- FAQs Img Start -->
-                  <div class="faqs-img-2">
+                  <div class="faq-img-1 faqs-img-2">
                     <figure
                       class="image-anime reveal"
                       style="
@@ -875,7 +842,7 @@
                       "
                     >
                       <img
-                        src="public/images/our-faqs-img-2.webp"
+                        src="public/images/faq/2.jpg"
                         alt=""
                         style="transform: translate(0px, 0px)"
                       />
@@ -888,7 +855,7 @@
               <div class="our-faqs-images-row-1">
                 <div class="">
                   <!-- FAQs Img Start -->
-                  <div class="faqs-img-1">
+                  <div class="faq-img faqs-img-1">
                     <figure
                       class="image-anime reveal"
                       style="
@@ -898,7 +865,7 @@
                       "
                     >
                       <img
-                        src="public/images/our-faqs-img-3.webp"
+                        src="public/images/faq/3.jpg"
                         alt=""
                         style="transform: translate(0px, 0px)"
                       />
@@ -908,7 +875,7 @@
                 </div>
                 <div class="">
                   <!-- FAQs Img Start -->
-                  <div class="faqs-img-2">
+                  <div class="faq-img-1 faqs-img-2">
                     <figure
                       class="image-anime reveal"
                       style="
@@ -918,7 +885,7 @@
                       "
                     >
                       <img
-                        src="public/images/our-faqs-img-4.webp"
+                        src="public/images/faq/4.jpg"
                         alt=""
                         style="transform: translate(0px, 0px)"
                       />
@@ -1006,7 +973,7 @@
         <div class="">
           <div class="">
             <!-- Section Title Start -->
-            <div class="section-title" data-aos="fade-up">
+            <div class="section-title">
               <h3 class="font-heading">Office Tour Video</h3>
               <div class="small-border"></div>
               <!-- <h2 class="tour-font">Take a Virtual tour of our space</h2> -->
@@ -1103,7 +1070,7 @@
                 </div>
                 <div class="contact-info-content">
                   <p>Book Your Space</p>
-                  <h3>+91 8169922745</h3>
+                  <a href="8169922745" target="_blank">+91 8169922745</a>
                 </div>
               </div>
               <!-- Contact Info End -->
@@ -1113,7 +1080,7 @@
                 <div class="icon-box">
                   <img src="public/images/icon-mail.svg" alt="" />
                 </div>
-                <div class="contact-info-content">
+                <div id="contact-form" class="contact-info-content">
                   <p>Email Address</p>
                   <h3>info@nextgeninfratech.in</h3>
                 </div>
@@ -1146,11 +1113,13 @@
                     name="select_plan_2"
                     id="select_plan_2"
                   >
-                    <option value="" class="option-1">Pick an option</option>
-                    <option value="opt-1">Private Office</option>
-                    <option value="opt-2">Coworking Space</option>
-                    <option value="opt-3">Virtual Office</option>
-                    <option value="opt-4">Meeting Room</option>
+                    <option value="">Pick an option</option>
+                    <option value="opt-1">Dedicated Desk</option>
+                    <option value="opt-2">Private Cabins</option>
+                    <option value="opt-3">Meeting Rooms</option>
+                    <option value="opt-4">Conference Room</option>
+                    <option value="opt-5">Training Room</option>
+                    <option value="opt-6">Mini Cabin</option>
                   </select>
                 </div>
 
@@ -1226,6 +1195,48 @@
       </div>
     </div>
     <!-- contact -->
+
+    <!-- clients -->
+    <section id="clients" class="client-logos">
+      <div class="section-title">
+        <h3 class="font-heading clients-heading">
+          Trusted by <br class="break" />
+          Leading Businesses
+        </h3>
+        <div class="small-border"></div>
+      </div>
+      <div class="logo-container">
+        <div class="c_logo">
+          <img src="./public/images/Clients/1.png" alt="Client 1" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/2.png" alt="Client 2" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/3.png" alt="Client 3" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/4.png" alt="Client 4" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/5.png" alt="Client 5" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/6.png" alt="Client 6" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/7.png" alt="Client 7" />
+        </div>
+        <div class="c_logo opertor">
+          <img src="./public/images/Clients/8.png" alt="Client 8" />
+        </div>
+        <div class="c_logo">
+          <img src="./public/images/Clients/9.png" alt="Client 9" />
+        </div>
+      </div>
+    </section>
+
+    <!-- clients -->
 
     <!-- footer -->
     <div class="pg-footer">
